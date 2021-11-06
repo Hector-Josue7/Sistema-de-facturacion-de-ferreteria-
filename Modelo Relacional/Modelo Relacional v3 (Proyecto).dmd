@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo Relacional v3 (Proyecto)" id="C75C7677-6AA8-8DDE-0B04-E2F635E3D230" version="3.5">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:23:16 UTC</createdTime>
+<ownerDesignName>Modelo Relacional (Proyecto)</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C75C7677-6AA8-8DDE-0B04-E2F635E3D230</designId>
+</OSDM_Design>

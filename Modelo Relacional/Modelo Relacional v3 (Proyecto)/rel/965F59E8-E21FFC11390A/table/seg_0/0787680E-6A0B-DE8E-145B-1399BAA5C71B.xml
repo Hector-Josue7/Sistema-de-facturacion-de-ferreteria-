@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0787680E-6A0B-DE8E-145B-1399BAA5C71B" name="TBL_USUARIOS_DEL_SISTEMA">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:20:09 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO EMPLEADO" id="4E837C19-6241-92F7-BC04-35661E7D0F19">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:17:23 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4B0B3F9-8B61-3137-F7B0-2203121EB37C" referredColumn="F75EF83A-3FED-3090-BC9E-6A259A5AB632"/>
+</associations>
+</Column>
+<Column name="CODIGO CARGO" id="C2A4BD7E-06C3-6611-B15E-6ACEBF72CF26">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:17:23 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4B0B3F9-8B61-3137-F7B0-2203121EB37C" referredColumn="1621E51C-A97C-341F-97EE-FB8AF163038D"/>
+</associations>
+</Column>
+<Column name="CODIGO SUCURSAL" id="4C2CD3C6-72D3-85A7-38E9-673E7C2BCA0F">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:17:23 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4B0B3F9-8B61-3137-F7B0-2203121EB37C" referredColumn="9AC39C27-473D-B5A4-B875-CC1AEACF958E"/>
+</associations>
+</Column>
+<Column name="USUARIO" id="174265AE-670B-FCB1-DC2D-3F0425FEEF19">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:21:07 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENIA" id="9EC5EE0C-996E-D192-4D17-EA13EB86A8C2">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:23:11 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB1A48C8-3EE1-2ADE-DD37-42630FCE1CF0" name="TBL_USUARIOS_DEL_SISTEMA_PK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:18:52 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E837C19-6241-92F7-BC04-35661E7D0F19"/>
+<colUsage columnID="C2A4BD7E-06C3-6611-B15E-6ACEBF72CF26"/>
+<colUsage columnID="4C2CD3C6-72D3-85A7-38E9-673E7C2BCA0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C45B7CF7-801E-3F04-3B28-04D04043F78D" name="TBL_USU_DEL_SIS_TBL_EMP_FK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:17:23 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E837C19-6241-92F7-BC04-35661E7D0F19"/>
+<colUsage columnID="C2A4BD7E-06C3-6611-B15E-6ACEBF72CF26"/>
+<colUsage columnID="4C2CD3C6-72D3-85A7-38E9-673E7C2BCA0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

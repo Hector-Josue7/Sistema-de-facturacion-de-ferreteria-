@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A721CD73-A578-4E75-84EE-082090E6B012" name="TBL_PROVEEDORES">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 02:20:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO PROVEEDOR" id="D0B078EE-8E71-2BF7-78C9-B3DD68CE65A4">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 02:22:48 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="92A03B20-3681-2127-4CE3-9E7CFF4405CD">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 02:22:48 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="B2071B9F-16B9-928A-07F2-8845C0D42A2E">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 02:22:48 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="85254D94-BA1B-5954-E91A-13E156B665AA">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 02:22:48 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="1C1E0D46-4DFD-2901-8344-D423EEC3517E">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 02:22:48 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RTN" id="86103D68-0A80-8201-D1C7-5D0B31F96309">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 02:24:12 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="049154E5-431C-8540-80F8-1AF7DBBE3643" name="TBL_PROVEEDORES_PK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 02:22:48 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0B078EE-8E71-2BF7-78C9-B3DD68CE65A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D71C8795-AB50-17C2-F254-EF143A742DB6" name="TBL_PROVEEDORES__UN">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 04:07:20 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C1E0D46-4DFD-2901-8344-D423EEC3517E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

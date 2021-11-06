@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="3D6A7CB7-ED49-8CD4-D788-7DE6370D9B65" name="TBL_ARTICULOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="C676F731-95BA-89FA-D753-475BA5FCD259" name="TBL_BITACORA" seqName="seg_0"/>
+   <object objectType="Table" objectID="9EC74336-D436-1AB0-B0A6-B7EACC95AF24" name="TBL_CARGOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="E640EDD4-766D-2546-060B-7D373582D57C" name="TBL_CLIENTES" seqName="seg_0"/>
+   <object objectType="Table" objectID="DE0FADFB-8B53-5869-CB92-3F4E3F640397" name="TBL_DETALLES_DE_PLANILLA" seqName="seg_0"/>
+   <object objectType="Table" objectID="D860AD9C-A2A9-783E-E3B8-A1A13BA2440A" name="TBL_DETALLE_FACTURA" seqName="seg_0"/>
+   <object objectType="Table" objectID="1EE2BA53-E72E-3B36-25B9-8BAAC2A326D1" name="TBL_DETALLE_LOTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="BCD63273-C7E6-9F20-6767-ABD24CEA97DB" name="TBL_EMPLEADOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="69D48B17-29FD-216B-E2DA-D223CD478F3B" name="TBL_FACTURAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="25CE3F82-D67D-45DC-4E2D-ABBA157F5971" name="TBL_INVENTARIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="2D6804AE-AA5F-350D-CD4F-AFD0BCF169A4" name="TBL_LOTES" seqName="seg_0"/>
+   <object objectType="Table" objectID="4FE467EA-9723-F470-2DBC-784B6DFE8D2E" name="TBL_MARCAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A06DEBE8-8AE2-B202-9921-4F6A3B3BF949" name="TBL_PERMISOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="CE345B78-3A03-5523-E8D4-894EB6DAF388" name="TBL_PLANILLAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A721CD73-A578-4E75-84EE-082090E6B012" name="TBL_PROVEEDORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="F5D44BD1-5971-A84A-A0A1-3ACC4DB59A78" name="TBL_SUCURSALES" seqName="seg_0"/>
+   <object objectType="Table" objectID="C8539419-264D-DFA0-AFB5-A90C7283F990" name="TBL_TIPO_CLIENTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="0787680E-6A0B-DE8E-145B-1399BAA5C71B" name="TBL_USUARIOS_DEL_SISTEMA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="61509044-ABCC-DB62-ED98-9B8B6191540D" name="TBL_ART_TBL_MAR_FK" seqName="seg_0" containerID="3D6A7CB7-ED49-8CD4-D788-7DE6370D9B65" refContainerID="4FE467EA-9723-F470-2DBC-784B6DFE8D2E"/>
+   <object objectType="FKIndexAssociation" objectID="D3EB8B87-4130-5A27-B164-F0AD4DBD866B" name="TBL_ART_TBL_PRO_FK" seqName="seg_0" containerID="3D6A7CB7-ED49-8CD4-D788-7DE6370D9B65" refContainerID="A721CD73-A578-4E75-84EE-082090E6B012"/>
+   <object objectType="FKIndexAssociation" objectID="5EC3DFCF-0C02-1536-B2B6-302079FD4D6F" name="TBL_BIT_TBL_USU_DEL_SIS_FK" seqName="seg_0" containerID="C676F731-95BA-89FA-D753-475BA5FCD259" refContainerID="0787680E-6A0B-DE8E-145B-1399BAA5C71B"/>
+   <object objectType="FKIndexAssociation" objectID="492E3751-C53D-DA0A-7D0D-4527D15C3A58" name="TBL_CLI_TBL_TIP CLI_FK" seqName="seg_0" containerID="E640EDD4-766D-2546-060B-7D373582D57C" refContainerID="C8539419-264D-DFA0-AFB5-A90C7283F990"/>
+   <object objectType="FKIndexAssociation" objectID="3A4DBDED-3CF1-9CB5-CDBF-EAFAC33492DC" name="TBL_DET_DE_PLA_TBL_EMP_FK" seqName="seg_0" containerID="DE0FADFB-8B53-5869-CB92-3F4E3F640397" refContainerID="BCD63273-C7E6-9F20-6767-ABD24CEA97DB"/>
+   <object objectType="FKIndexAssociation" objectID="CCC87AD5-9872-1998-D0DC-8287509812DE" name="TBL_DET_DE_PLA_TBL_PLA_FK" seqName="seg_0" containerID="DE0FADFB-8B53-5869-CB92-3F4E3F640397" refContainerID="CE345B78-3A03-5523-E8D4-894EB6DAF388"/>
+   <object objectType="FKIndexAssociation" objectID="36396CD7-9449-D6F8-F450-F96665A87C8F" name="TBL_DET_FAC_TBL_ART_FK" seqName="seg_0" containerID="D860AD9C-A2A9-783E-E3B8-A1A13BA2440A" refContainerID="3D6A7CB7-ED49-8CD4-D788-7DE6370D9B65"/>
+   <object objectType="FKIndexAssociation" objectID="62A48072-44CC-16C6-1265-6DA9E9EA8DCC" name="TBL_DET_FAC_TBL_FAC_FK" seqName="seg_0" containerID="D860AD9C-A2A9-783E-E3B8-A1A13BA2440A" refContainerID="69D48B17-29FD-216B-E2DA-D223CD478F3B"/>
+   <object objectType="FKIndexAssociation" objectID="38CE3D5B-D7DE-608F-A346-E71C07EADBF6" name="TBL_DET_LOT_TBL_ART_FK" seqName="seg_0" containerID="1EE2BA53-E72E-3B36-25B9-8BAAC2A326D1" refContainerID="3D6A7CB7-ED49-8CD4-D788-7DE6370D9B65"/>
+   <object objectType="FKIndexAssociation" objectID="B4F042DA-86F5-9CB5-0E32-75C82F372FDF" name="TBL_DET_LOT_TBL_LOT_FK" seqName="seg_0" containerID="1EE2BA53-E72E-3B36-25B9-8BAAC2A326D1" refContainerID="2D6804AE-AA5F-350D-CD4F-AFD0BCF169A4"/>
+   <object objectType="FKIndexAssociation" objectID="2CB7785F-60F4-2A97-987C-4353D7994D09" name="TBL_EMP_TBL_CAR_FK" seqName="seg_0" containerID="BCD63273-C7E6-9F20-6767-ABD24CEA97DB" refContainerID="9EC74336-D436-1AB0-B0A6-B7EACC95AF24"/>
+   <object objectType="FKIndexAssociation" objectID="F4A76A03-D1A6-D472-50DA-D361956ECD42" name="TBL_EMP_TBL_SUC_FK" seqName="seg_0" containerID="BCD63273-C7E6-9F20-6767-ABD24CEA97DB" refContainerID="F5D44BD1-5971-A84A-A0A1-3ACC4DB59A78"/>
+   <object objectType="FKIndexAssociation" objectID="B6833402-622C-D94C-C5B2-0BA0F1541253" name="TBL_FAC_TBL_CLI_FK" seqName="seg_0" containerID="69D48B17-29FD-216B-E2DA-D223CD478F3B" refContainerID="E640EDD4-766D-2546-060B-7D373582D57C"/>
+   <object objectType="FKIndexAssociation" objectID="50A333AF-ACDA-9970-E9D3-733EE3A9CAD9" name="TBL_FAC_TBL_USU_DEL SIS_FK" seqName="seg_0" containerID="69D48B17-29FD-216B-E2DA-D223CD478F3B" refContainerID="0787680E-6A0B-DE8E-145B-1399BAA5C71B"/>
+   <object objectType="FKIndexAssociation" objectID="50F1B729-1B78-CE1B-C6E6-DA5646E20790" name="TBL_INV_TBL_ART_FK" seqName="seg_0" containerID="25CE3F82-D67D-45DC-4E2D-ABBA157F5971" refContainerID="3D6A7CB7-ED49-8CD4-D788-7DE6370D9B65"/>
+   <object objectType="FKIndexAssociation" objectID="89311C54-BDD5-EECF-A743-E93BA5858C64" name="TBL_INV_TBL_SUC_FK" seqName="seg_0" containerID="25CE3F82-D67D-45DC-4E2D-ABBA157F5971" refContainerID="F5D44BD1-5971-A84A-A0A1-3ACC4DB59A78"/>
+   <object objectType="FKIndexAssociation" objectID="21A3FB11-4EDF-905B-0379-EC495AA6BFDC" name="TBL_LOT_TBL_SUC_FK" seqName="seg_0" containerID="2D6804AE-AA5F-350D-CD4F-AFD0BCF169A4" refContainerID="F5D44BD1-5971-A84A-A0A1-3ACC4DB59A78"/>
+   <object objectType="FKIndexAssociation" objectID="3495BBE7-D08C-94F7-5DFC-4438B92DC4EF" name="TBL_PER_TBL_CAR_FK" seqName="seg_0" containerID="A06DEBE8-8AE2-B202-9921-4F6A3B3BF949" refContainerID="9EC74336-D436-1AB0-B0A6-B7EACC95AF24"/>
+   <object objectType="FKIndexAssociation" objectID="B6CF8D11-A68C-1B52-6201-8D4730F9244C" name="TBL_PLA_TBL_USU_DEL_SIS_FK" seqName="seg_0" containerID="CE345B78-3A03-5523-E8D4-894EB6DAF388" refContainerID="0787680E-6A0B-DE8E-145B-1399BAA5C71B"/>
+   <object objectType="FKIndexAssociation" objectID="E4B0B3F9-8B61-3137-F7B0-2203121EB37C" name="TBL_USU_DEL_SIS_TBL_EMP_FK" seqName="seg_0" containerID="0787680E-6A0B-DE8E-145B-1399BAA5C71B" refContainerID="BCD63273-C7E6-9F20-6767-ABD24CEA97DB"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

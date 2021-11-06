@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D6A7CB7-ED49-8CD4-D788-7DE6370D9B65" name="TBL_ARTICULOS">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:54:22 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO ARTICULO" id="67B9D82E-0071-1A1D-A681-4205CF15F309">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:54:50 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="E846BEA8-DC0D-8E5C-329F-B59196C62F54">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:57:33 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO UNITARIO DE VENTA" id="CD033E71-731F-2275-B7C1-41A9AE472451">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:58:41 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAS DE VIDA UTIL" id="182AD6B5-F6FF-4142-3B72-579CDD0ED00F">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-05 23:32:47 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO MARCA" id="32E96F62-7656-D33D-C104-97D630E65559">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-05 23:35:42 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61509044-ABCC-DB62-ED98-9B8B6191540D" referredColumn="DD887E53-ABEF-F26C-FB96-8574BC808355"/>
+</associations>
+</Column>
+<Column name="CODIGO PROVEEDOR" id="1CA00E9E-8974-375D-655F-1A144F8D76A0">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 02:24:42 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3EB8B87-4130-5A27-B164-F0AD4DBD866B" referredColumn="D0B078EE-8E71-2BF7-78C9-B3DD68CE65A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87D9ABA9-B65E-71E7-B500-08644E2A925E" name="TBL_ARTICULOS_PK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:59:06 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B9D82E-0071-1A1D-A681-4205CF15F309"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB9A20B9-7E8F-181B-B9F1-515B1C3E7026" name="TBL_ART_TBL_MAR_FK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-05 23:35:42 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32E96F62-7656-D33D-C104-97D630E65559"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FBC70F3-3CA6-90C5-7E05-8D07D3831259" name="TBL_ART_TBL_PRO_FK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 02:24:42 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CA00E9E-8974-375D-655F-1A144F8D76A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

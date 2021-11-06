@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EE2BA53-E72E-3B36-25B9-8BAAC2A326D1" name="TBL_DETALLE_LOTE">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-05 23:54:40 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO SUCURSAL" id="670D3B0F-D2E5-AA50-4B01-9214FA6DF82F">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 01:10:15 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4F042DA-86F5-9CB5-0E32-75C82F372FDF" referredColumn="10447202-2874-468B-2116-D82D73326660"/>
+</associations>
+</Column>
+<Column name="CODIGO LOTE" id="AB0FFF55-CE00-9789-5CA5-A948D6E8081F">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 01:10:15 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4F042DA-86F5-9CB5-0E32-75C82F372FDF" referredColumn="D92E537E-B09D-D0D7-2EC0-554E85AFA37C"/>
+</associations>
+</Column>
+<Column name="CODIGO ARTICULO" id="33B81085-84B7-98C7-D884-78596543E265">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 00:44:48 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38CE3D5B-D7DE-608F-A346-E71C07EADBF6" referredColumn="67B9D82E-0071-1A1D-A681-4205CF15F309"/>
+</associations>
+</Column>
+<Column name="CANTIDAD COMPRADA" id="DFD48691-A058-D3AA-4322-D48B017BFA54">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-05 23:57:47 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO UNITARIO DE COMPRA" id="AFF83EF6-7FEB-0418-3B7B-4E8656A477CE">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-05 23:58:15 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO ACUMULADO" id="78271CA7-153D-9834-5A2D-131A2EC34B6F">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 03:36:19 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B16EEB6-9D9B-541A-6B62-07E0C5284F7B" name="TBL_DETALLE_LOTE_PK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 03:57:55 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="670D3B0F-D2E5-AA50-4B01-9214FA6DF82F"/>
+<colUsage columnID="AB0FFF55-CE00-9789-5CA5-A948D6E8081F"/>
+<colUsage columnID="33B81085-84B7-98C7-D884-78596543E265"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FF39223-E5E6-A787-EFB3-014F5EC9F01D" name="TBL_DET_LOT_TBL_ART_FK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-12-12 19:30:26 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33B81085-84B7-98C7-D884-78596543E265"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CCCABD9-8A4F-ED76-D1E9-FF6E8A604469" name="TBL_DET_LOT_TBL_LOT_FK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-12-12 19:30:39 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="670D3B0F-D2E5-AA50-4B01-9214FA6DF82F"/>
+<colUsage columnID="AB0FFF55-CE00-9789-5CA5-A948D6E8081F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

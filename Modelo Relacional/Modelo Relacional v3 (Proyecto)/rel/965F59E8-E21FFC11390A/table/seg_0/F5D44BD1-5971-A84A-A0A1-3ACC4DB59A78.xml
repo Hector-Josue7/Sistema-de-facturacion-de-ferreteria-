@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5D44BD1-5971-A84A-A0A1-3ACC4DB59A78" name="TBL_SUCURSALES">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:58:56 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO SUCURSAL" id="0CE06EC4-B0EB-B8ED-B46B-8A8E4FC89F62">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:59:45 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="C0D469C5-8A85-8AA0-633E-1624E7DC5582">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:00:07 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="E7845108-888D-E408-8630-86AAA5CE227A">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:03:48 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="6FB53854-D586-53F2-040A-63B704D16640">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:04:27 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RTN" id="DBC35158-1EEC-1052-A22B-5BAD21FCBA92">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:02:46 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAI" id="21951124-A35C-1509-5A2C-CBE3A19ED98A">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:06:32 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8FF5F99-BD48-B4C5-A40C-190402CABCBB" name="TBL_SUCURSALES_PK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:59:45 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CE06EC4-B0EB-B8ED-B46B-8A8E4FC89F62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF480FD7-17D5-3EE8-A1BF-FE99BFD83DCA" name="TBL_SUCURSALES__UN">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:25:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBC35158-1EEC-1052-A22B-5BAD21FCBA92"/>
+<colUsage columnID="21951124-A35C-1509-5A2C-CBE3A19ED98A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

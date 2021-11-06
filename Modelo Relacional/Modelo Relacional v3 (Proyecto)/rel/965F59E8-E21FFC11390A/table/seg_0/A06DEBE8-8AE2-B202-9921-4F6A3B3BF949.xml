@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A06DEBE8-8AE2-B202-9921-4F6A3B3BF949" name="TBL_PERMISOS">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:27:36 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO CARGO" id="A5E73091-FC29-CDE9-C93E-ABD667902C2D">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:41:27 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3495BBE7-D08C-94F7-5DFC-4438B92DC4EF" referredColumn="9356F39C-C682-E7ED-61F8-499F50B65A12"/>
+</associations>
+</Column>
+<Column name="PERMISO_INVENTARIO" id="BDB81CFF-2AF6-3C11-A740-19D518D53CF6">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:33:59 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERMISO_FACTURACION" id="60D30B0D-0B17-CFA6-753B-AAEDD9338148">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:34:53 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERMISO_REPORTES" id="C6BD8757-86E3-1F44-1453-2AB8F690D974">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:34:53 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERMISO_PLANILLA" id="FDF990FC-CECC-A24D-3608-48D7BE13CDB8">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:37:42 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24DFC061-8EB5-597C-38ED-EF3DBA200F81" name="TBL_PERMISOS_PK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:41:39 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5E73091-FC29-CDE9-C93E-ABD667902C2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE99E17F-9D2D-D7B9-4803-71D3862AC65B" name="TBL_PER_TBL_CAR_FK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:41:27 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5E73091-FC29-CDE9-C93E-ABD667902C2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

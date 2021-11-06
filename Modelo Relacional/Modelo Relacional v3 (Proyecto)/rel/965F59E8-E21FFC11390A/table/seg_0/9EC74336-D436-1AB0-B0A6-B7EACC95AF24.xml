@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EC74336-D436-1AB0-B0A6-B7EACC95AF24" name="TBL_CARGOS">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:38:12 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO CARGO" id="9356F39C-C682-E7ED-61F8-499F50B65A12">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:40:26 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="4918CD79-0983-D678-B37A-6B695BA3FD1E">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:41:11 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18D66393-A7E9-C2F5-608B-5AB22879C5B5" name="TBL_CARGOS_PK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 01:41:24 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9356F39C-C682-E7ED-61F8-499F50B65A12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E640EDD4-766D-2546-060B-7D373582D57C" name="TBL_CLIENTES">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:13:47 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO CLIENTE" id="A74EE130-E936-4FC6-DFA0-6055777E9575">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:20:12 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDENTIDAD" id="52C97CF5-349F-8A98-8986-FBC8DCF3B5C6">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:21:16 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="CC5B089B-7D3B-861E-DD9E-92F85BC6D94F">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:20:45 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="82AA47D8-7B21-291F-F7E8-A83648DAA737">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:21:16 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="ABB8CED0-F126-6860-ED67-DAF84A7F39F4">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:22:59 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RTN" id="040E4E94-A47E-BC62-8800-A3BB1EA3456F">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:21:16 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="652DB258-699A-2CBC-51EB-A1556136F614">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:21:16 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO TIPO DE CLIENTE" id="E1C9EF4E-88DF-CA57-4464-24875A52DFFC">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:31:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="492E3751-C53D-DA0A-7D0D-4527D15C3A58" referredColumn="1D37659D-E616-65EF-3778-25EE7CD2D59E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19971284-B734-B0D2-0F05-06CD53DC3A2C" name="TBL_CLIENTES_PK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:20:24 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A74EE130-E936-4FC6-DFA0-6055777E9575"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77722D83-4058-4179-D0A1-F923EE7F0575" name="TBL_CLIENTES__UN">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:23:53 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52C97CF5-349F-8A98-8986-FBC8DCF3B5C6"/>
+<colUsage columnID="040E4E94-A47E-BC62-8800-A3BB1EA3456F"/>
+<colUsage columnID="652DB258-699A-2CBC-51EB-A1556136F614"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AE3BDBE-9E67-7BD4-EF9F-86E41B3F8A6C" name="TBL_CLI_TBL_TIP CLI_FK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:31:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1C9EF4E-88DF-CA57-4464-24875A52DFFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

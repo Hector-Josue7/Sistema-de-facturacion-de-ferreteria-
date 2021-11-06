@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C676F731-95BA-89FA-D753-475BA5FCD259" name="TBL_BITACORA">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:54:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO BITACORA" id="91915EE7-1732-E096-8CE4-6BD20B152DC6">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:59:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="941D99A5-5C25-44B4-7D4E-B8F8B66FAD42">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:59:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE DEL FORMULARIO" id="D221E5A3-DD02-AEC0-22CF-7693E0F1B124">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:59:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO EMPLEADO" id="DD2142B2-D2AF-F7CF-FAB0-06A42512E811">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:20:29 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EC3DFCF-0C02-1536-B2B6-302079FD4D6F" referredColumn="4E837C19-6241-92F7-BC04-35661E7D0F19"/>
+</associations>
+</Column>
+<Column name="CODIGO CARGO" id="3A5389F0-5258-DDA7-D4FD-1B9B2CF57DC8">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:20:29 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EC3DFCF-0C02-1536-B2B6-302079FD4D6F" referredColumn="C2A4BD7E-06C3-6611-B15E-6ACEBF72CF26"/>
+</associations>
+</Column>
+<Column name="CODIGO SUCURSAL" id="8B67A418-01A4-DF7A-2273-7CDFA6033D60">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:20:29 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EC3DFCF-0C02-1536-B2B6-302079FD4D6F" referredColumn="4C2CD3C6-72D3-85A7-38E9-673E7C2BCA0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70D7480A-1AFA-AA93-E299-98809791336D" name="TBL_BITACORA_PK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 02:59:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91915EE7-1732-E096-8CE4-6BD20B152DC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9B0E5B0-4373-C4FB-93EE-2560791D0523" name="TBL_BIT_TBL_USU_DEL_SIS_FK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:20:29 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD2142B2-D2AF-F7CF-FAB0-06A42512E811"/>
+<colUsage columnID="3A5389F0-5258-DDA7-D4FD-1B9B2CF57DC8"/>
+<colUsage columnID="8B67A418-01A4-DF7A-2273-7CDFA6033D60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

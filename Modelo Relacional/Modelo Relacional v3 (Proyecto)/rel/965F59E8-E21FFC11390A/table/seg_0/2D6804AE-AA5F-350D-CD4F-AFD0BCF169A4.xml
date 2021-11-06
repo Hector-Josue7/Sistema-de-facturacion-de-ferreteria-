@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D6804AE-AA5F-350D-CD4F-AFD0BCF169A4" name="TBL_LOTES">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-05 23:41:41 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO LOTE" id="D92E537E-B09D-D0D7-2EC0-554E85AFA37C">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-05 23:42:47 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO SUCURSAL" id="10447202-2874-468B-2116-D82D73326660">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 00:56:17 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21A3FB11-4EDF-905B-0379-EC495AA6BFDC" referredColumn="0CE06EC4-B0EB-B8ED-B46B-8A8E4FC89F62"/>
+</associations>
+</Column>
+<Column name="FECHA DE INGRESO" id="81EACDD7-5307-E03B-F9D4-2D5CF951905D">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-05 23:44:30 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPUESTO S/V PAGADO" id="CD590161-A7E8-5D6D-8346-6AD3A83E4A78">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 03:37:10 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO TOTAL" id="F3B87D48-98D6-A237-3177-C833D10EF289">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 03:09:35 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AB8BD3F-696B-21ED-3D61-F13A64EA1C54" name="TBL_LOTES_PK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-06 01:09:32 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10447202-2874-468B-2116-D82D73326660"/>
+<colUsage columnID="D92E537E-B09D-D0D7-2EC0-554E85AFA37C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09DA2AB8-26EA-709B-69FC-CA60FBE4B27D" name="TBL_LOT_TBL_SUC_FK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-12-12 19:14:01 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10447202-2874-468B-2116-D82D73326660"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

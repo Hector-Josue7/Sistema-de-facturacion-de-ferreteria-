@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8539419-264D-DFA0-AFB5-A90C7283F990" name="TBL_TIPO_CLIENTE">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:29:09 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO TIPO DE CLIENTE" id="1D37659D-E616-65EF-3778-25EE7CD2D59E">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:29:39 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="C374D4F7-3054-0360-7BDD-5B0E4CAAB813">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:30:34 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCUENTO" id="D4F01471-E9E5-8BF1-69DF-F4A19B3EF88B">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:31:12 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB224A24-EBCF-57CA-33FC-EFF80F482481" name="TBL_TIPO CLIENTE_PK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 04:30:34 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D37659D-E616-65EF-3778-25EE7CD2D59E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

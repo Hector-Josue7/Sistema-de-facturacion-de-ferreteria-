@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE345B78-3A03-5523-E8D4-894EB6DAF388" name="TBL_PLANILLAS">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:25:26 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO PLANILLA" id="9481A3B8-222F-DB48-42D9-AAA3DCCE72E1">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:32:26 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="535FA9E4-2C6C-BB71-FB37-3A0714FB544B">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:32:26 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO EMPLEADO" id="FB5392D6-B0CD-F93E-ACDD-D51602549175">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:32:39 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6CF8D11-A68C-1B52-6201-8D4730F9244C" referredColumn="4E837C19-6241-92F7-BC04-35661E7D0F19"/>
+</associations>
+</Column>
+<Column name="CODIGO CARGO" id="595FEC7F-92F3-0A3E-CD87-8F7E17CB8440">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:32:39 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6CF8D11-A68C-1B52-6201-8D4730F9244C" referredColumn="C2A4BD7E-06C3-6611-B15E-6ACEBF72CF26"/>
+</associations>
+</Column>
+<Column name="CODIGO SUCURSAL" id="1AE116D7-20AA-9F91-0D4C-97C17708983E">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:32:39 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6CF8D11-A68C-1B52-6201-8D4730F9244C" referredColumn="4C2CD3C6-72D3-85A7-38E9-673E7C2BCA0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DCAEA46-FEFB-1CE2-0CF1-7B3844B86C27" name="TBL_PLANILLAS_PK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:32:26 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9481A3B8-222F-DB48-42D9-AAA3DCCE72E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF9B87EE-33F0-E1B9-7D36-0EBD5B463088" name="TBL_PLA_TBL_USU_DEL_SIS_FK">
+<createdBy>Alejandro Cruz</createdBy>
+<createdTime>2015-11-02 03:32:39 UTC</createdTime>
+<ownerDesignName>Modelo Relacional v3 (Proyecto)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB5392D6-B0CD-F93E-ACDD-D51602549175"/>
+<colUsage columnID="595FEC7F-92F3-0A3E-CD87-8F7E17CB8440"/>
+<colUsage columnID="1AE116D7-20AA-9F91-0D4C-97C17708983E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
